@@ -1,5 +1,5 @@
 # Fundus Image Classification
-This project focuses on classifying retinal (fundus) images into infected and normal categories using deep learning techniques.
+This project focuses on classifying retinal (fundus) images into different disease categories using deep learning techniques.
 
 ##  Model
 ResNet18 (Pretrained)
