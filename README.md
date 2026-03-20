@@ -5,7 +5,7 @@ This project focuses on classifying retinal (fundus) images into infected and no
 ResNet18 (Pretrained)
 
 ##  Results
-- Accuracy: 82.9%
+- Accuracy: 85%
 - Confusion Matrix implemented
 
 ##  Features
