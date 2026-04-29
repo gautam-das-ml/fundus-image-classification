@@ -28,7 +28,7 @@ def main():
 
     model = get_model().to(device)
 
-    # ✅ Class weights (IMPORTANT)
+    # Class weights 
     class_counts = [3104, 95, 312, 446, 310]
     total = sum(class_counts)
     weights = [total / c for c in class_counts]
@@ -37,7 +37,7 @@ def main():
     criterion = nn.CrossEntropyLoss(weight=weights)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
 
-    epochs = 25   # 🔥 IMPORTANT (not 50)
+    epochs = 25   
 
     epoch_logs = []
 
