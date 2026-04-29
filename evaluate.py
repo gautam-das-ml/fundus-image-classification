@@ -17,7 +17,7 @@ def main():
     dataset = FundusDataset(
         csv_file="data/test.csv",
         image_dir="data/images",
-        train=False   # 🔥 VERY IMPORTANT
+        train=False   
     )
 
     loader = DataLoader(
